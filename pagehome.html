@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/>
+    <title>cart</title>
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: large;
+        }
+        .navbar{
+            margin-top: 40px;
+            height: 60px;
+            border: 1px solid rgb(245, 243, 243);
+            background-color: rgb(245, 243, 243);
+            padding-left: 50px;
+
+            display: flex;
+            width: 100%;
+        }
+        button{
+            border-radius: 5px;
+            width: 200px;
+            height: 40px;
+            color: white;
+            transition: 1s;
+        }
+        form{
+            flex-wrap: wrap;
+            gap: 0.8rem;
+            display: flex;
+        }
+        ul li{
+            list-style: none;
+            padding-right: 80px;
+            cursor: pointer;
+            color: rgb(121, 117, 117);
+            
+        }
+        ul li:hover{
+            color: black;
+            transform: scale(1.1);
+        }
+        ul{
+            display: flex;
+            padding: 8px;
+            
+        }
+
+        .fa-solid{
+            padding-right: 50px;
+        }
+
+        .home{
+            color: black;
+        }
+        .container{
+            margin-top: 90px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <form>
+        <div class="navbar">
+            <ul>
+             <li class="text-primary"><strong>CowStore</strong></li>
+             <li class="home" onclick="location.href='file:///C:/Users/Administrateur/Desktop/Amalona/pagehome.html'">Home</li>
+             <li onclick="location.href='file:///C:/Users/Administrateur/Desktop/Amalona/pageboot.html'">Products</li>
+             <li onclick="location.href='file:///C:/Users/Administrateur/Desktop/Amalona/pagecart.html'">Cart</li>
+            </ul>
+             <div class="sear">
+                 <i class="fa-solid fa-cart-shopping fa-bounce pb-4 position-relative " style="color: #2159ba;" onclick="location.href=''"><span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger">0</span></i>
+             </div>
+         </div>
+         <div class="container text-center ">
+            <p class="fs-1"><strong>Cows Store</strong></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur praesentium ea delectus, sint corporis quas dolorum eum non esse id incidunt laudantium hic ex aperiam iusto alias fuga eveniet sunt?
+            Recusandae doloremque ad et harumullam molestiae tempora, modi, amet delectus neque fugiat officiis quo cumque voluptatem impedit ducimus velit harum quis consequuntur at minima unde nostrum. Perspiciatis?</p>
+            <button class="bg-primary text-white rounded-2 border-primary">Main call to action</button>
+            <button class="bg-danger text-white rounded-2 border-danger">Secondary action</button>
+        
+        
+        
+        </div>
+
+
+    </form>
+    
+    
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/>
+    <title>page</title>
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: large;
+        }
+        .navbar{
+            margin-top: 40px;
+            height: 60px;
+            border: 1px solid rgb(245, 243, 243);
+            background-color: rgb(245, 243, 243);
+            padding-left: 50px;
+
+            display: flex;
+            width: 100%;
+        }
+        button{
+            border-radius: 5px;
+            width: 100px;
+            border: 1px solid rgb(66, 125, 221);
+            background-color: white;
+            color: rgb(66, 125, 221);
+            transition: 1s;
+        }
+        button:hover{
+            background-color: rgb(38, 98, 194);
+            color: white;
+        }
+        .otherside{
+            flex-wrap: wrap;
+            margin-left: 270px;
+            margin-top: 20px;
+            width: 1500px;
+        }
+        .pic{
+            border: 1px solid rgb(205, 204, 204);
+            box-shadow: 2px 2px 5px black;
+            word-break: break-all;
+            padding: 15px;
+            margin-right: 30px;
+            margin-bottom: 30px;
+            width: 300px;
+        }
+        .pic:hover{
+            transform: scale(1.1);
+        }
+        img{
+            width: 270px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        form{
+            flex-wrap: wrap;
+            gap: 0.8rem;
+            display: flex;
+        }
+        ul li{
+            list-style: none;
+            padding-right: 80px;
+            cursor: pointer;
+            color: rgb(121, 117, 117);
+            
+        }
+        ul li:hover{
+            color: black;
+            transform: scale(1.1);
+        }
+        ul{
+            display: flex;
+            padding: 8px;
+            
+        }
+        p{
+           margin-top: 20px;
+        }
+        .fa-solid{
+            padding-right: 50px;
+        }
+        .ap{
+            margin-left: 270px;
+        }
+        .product{
+            color: black;
+        }
+
+
+    </style>
+</head>
+<body>
+    <form>
+        <div class="navbar">
+           <ul>
+            <li class="text-primary"><strong>CowStore</strong></li>
+            <li onclick="location.href='file:///C:/Users/Administrateur/Desktop/Amalona/pagehome.html'">Home</li>
+            <li class="product" onclick="location.href='file:///C:/Users/Administrateur/Desktop/Amalona/pageboot.html'">Products</li>
+            <li onclick="location.href='file:///C:/Users/Administrateur/Desktop/Amalona/pagecart.html'">Cart</li>
+           </ul>
+            <div class="sear">
+                <i class="fa-solid fa-cart-shopping fa-bounce pb-4 position-relative " style="color: #2159ba;" onclick="location.href=''"><span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger">0</span></i>
+            </div>
+        </div>
+
+
+        <p class="ap fs-1 text-danger">Products : </p>
+
+            <div class="otherside d-flex">
+                <div class="pic rounded-4">
+                    <img src="https://i.pinimg.com/originals/80/6d/a4/806da46c58df6b5524426b69adb2faea.jpg">
+                    <p>Brown cow 1</p>
+                    <p>12000$</p>
+                    <button>details</button>
+                </div>
+                <div class="pic rounded-4">
+                    <img src="https://mymodernmet.com/wp/wp-content/uploads/2017/10/highland-cattle-calves-12.jpg">
+                    <p>Brown cow 2</p>
+                    <p>13000$</p>
+                    <button>details</button>
+                </div>
+                <div class="pic rounded-4">
+                    <img src="https://paintbynumbers.uk/wp-content/uploads/2021/01/cute-baby-cow-paint-by-numbers.jpg">
+                    <p> B&W cow 1</p>
+                    <p>15000$</p>
+                    <button>details</button>
+                </div>
+                <div class="pic rounded-4">
+                    <img src="https://i.redd.it/cute-cows-one-of-my-favorite-animals-pinterest-v0-lkk3wo4k4od81.jpg?width=564&format=pjpg&auto=webp&s=ff84606a7962882278fda15c4d9fb9b1f601b16c">
+                    <p>B&W cow 2</p>
+                    <p>14000$</p>
+                    <button>details</button>
+                </div>
+                <div class="pic rounded-4">
+                    <img src="https://pbs.twimg.com/media/EfSp09gVAAMvi2w.jpg">
+                    <p>B&W cow 3</p>
+                    <p>12000$</p>
+                    <button>details</button>
+                </div>
+                <div class="pic rounded-4">
+                    <img src="https://eu-images.contentstack.com/v3/assets/bltdd43779342bd9107/bltbb9f34ac4586c84e/639a0fe8cec98874c9d3cbd9/interview_man_behind_fluffy_cows_1_635065418396895616.jpg?width=700&auto=webp&quality=80&disable=upscale">
+                    <p>White cow 1</p>
+                    <p>13000$</p>
+                    <button>details</button>
+                </div>
+                <div class="pic rounded-4">
+                    <img src="https://i.pinimg.com/originals/dc/b5/a4/dcb5a4a7901e188d48446d7576c20be4.jpg">
+                    <p>White cow 2</p>
+                    <p>15000$</p>
+                    <button>details</button>
+                </div>
+                <div class="pic rounded-4">
+                    <img src="https://lamblightminicattles.com/files/1068722/products/263771/max_1669518258y2W7Xu.jpeg">
+                    <p>White cow 3</p>
+                    <p>14000$</p>
+                    <button>details</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
